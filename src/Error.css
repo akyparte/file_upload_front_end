@@ -1,0 +1,13 @@
+.error-frame {
+    display: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.err-heading {
+   font-size: 100px;
+   color: rgb(255, 74, 74);
+}

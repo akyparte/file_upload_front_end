@@ -1,0 +1,178 @@
+.main-frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-frame {
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+
+.upload-box {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.upload-box h1 {
+    font-size: 15px;
+}
+
+.upload-box .file-up-cl-btn {
+    font-size: 15px;
+    height: 32px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.file-upload-data {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 80%;
+}
+
+.file-upload-data .progress {
+    width: 80%;
+}
+
+
+.upload-file-section {
+
+    border: 2px solid rgb(108, 108, 108);
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    height: 90%;
+    overflow: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.upload-handle-btn-section {
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.upload-handle-btn-section button {
+    width: fit-content;
+    /* height: 30px; */
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.progress {
+    width: 40%;
+}
+
+
+
+.files-list {
+    overflow: auto;
+}
+
+.files-list .file-box {
+    margin-bottom: 7px;
+}
+
+.uploaded-files-frame {
+    border: 2px solid rgb(124, 124, 124);
+    height: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.pagination {
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagination span ,.pagination button {
+    margin-right: 20px;
+}
+
+.pagination select {
+   margin-right: 15px;
+}
+
+.navigation-btn {
+    padding: 0 5px;
+    border-radius: 4px;
+}
+.available {
+    color:black
+}
+
+.not-available {
+    color: gray;
+}
+
+.file-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.file-box:first-child {
+    margin-top: 10px;
+}
+
+.file-box > button {
+    width: 80px;
+    height: 35px;
+    outline: none;
+    align-self: center;
+    margin-right: 10px;
+    background-color: rgb(255, 54, 54);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.file-view {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.file-view img {
+    width: 60px;
+    height: 100%;
+}
+
+.file-view p {
+    margin-left: 10px;
+}
+
+.no-files {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
